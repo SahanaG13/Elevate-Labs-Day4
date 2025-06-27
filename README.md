@@ -1,1 +1,7 @@
-# Elevate-Labs-Day4
+- Step 1: Loads the cleaned Titanic dataset from `Titanic-Dataset_Cleaned.csv`.<br>
+- Step 2: Selects relevant features (`Pclass`, `Sex`, `Age`, `Fare`, `SibSp`, `Parch`) to predict the binary target `Survived`.<br>
+- Step 3: Splits the data into training and testing sets using an 80-20 ratio.<br>
+- Step 4: Standardizes the features using `StandardScaler`.<br>
+- Step 5: Trains a Logistic Regression model using Scikit-learn.<br>
+- Step 6: Evaluates the model using confusion matrix, precision, recall, F1-score, and ROC-AUC score.<br>
+- Step 7: Visualizes the ROC curve and calculates the area under the curve.<br>
